@@ -4,7 +4,7 @@ from .models import BookMemo,Book
 from django.urls import reverse_lazy
 # Create your views here.
 class MemoIndexView(TemplateView):
-    template=""
+    template_name="memo/index.html"
 
 class MemoCreateView(CreateView):
     model=BookMemo
