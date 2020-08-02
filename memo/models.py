@@ -1,6 +1,10 @@
 from django.db import models
-#test
 # Create your models here.
+
+#1
+#E
+#dfaateadddafst
+#ffd
 
 class Book(models.Model):
     name = models.CharField(max_length=50)
